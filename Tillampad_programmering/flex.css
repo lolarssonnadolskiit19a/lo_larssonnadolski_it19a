@@ -1,15 +1,15 @@
 header, nav, article, aside, footer {
-    border:1px solid rgb(37, 4, 129);
+    border:2px solid rgb(253, 0, 0);
     text-align:center;
     background:rgb(217, 241, 4, 0.945);
     margin:5px;
 }
-/*nav, article, aside wrapper*/
+
 section{
     display:flex; 
     margin:0;
 }
-/*size of nav, artivle, aside*/
+
 nav{
     flex:1;
 }
@@ -22,7 +22,7 @@ aside{
 footer{
 
 }
-/*The @media rule is used in media queries to apply different styles for different media types/devices.*/
+
 @media only screen and (max-width: 660px) {
     section {
       flex-direction:column;
