@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+}
+
+
+#container {
+
+    border: 2px solid black;
+    width: 600px;
+    border-radius: 9px;
+    margin: 2rem auto;
+    background-color: blueviolet
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70% 
+    m
+}
